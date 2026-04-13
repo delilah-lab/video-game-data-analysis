@@ -1,52 +1,56 @@
-# Video Game Data Analysis
+# 🎮 Video Game Data Analysis
 
-This project explores the top video games of all time, analyzing **sales data**, **critic scores**, and **user ratings** to understand trends in the gaming industry.  
-
-> This project was completed back when I was a university student as part of my learning and practice in **data analysis and visualization**.
+A data analysis project exploring video game sales, critic scores, and user ratings to uncover trends in the gaming industry, including top-performing titles, platform dominance, and changes in game popularity over time.
 
 ---
 
-## Datasets Included
-
-- `game_reviews.csv` – Raw critic and user reviews for video games  
-- `game_sales.csv` – Sales information for video games  
-- `game_sales_data.csv` – Cleaned and combined sales data  
-- `top_critic_scores.csv` – Games with the highest critic scores  
-- `top_critic_scores_more_than_four_games.csv` – Top critic scores for publishers with more than 4 games  
-- `top_user_scores_more_than_four_games.csv` – Top user scores for publishers with more than 4 games  
-
----
-
-## Analysis Goals
-
-- Identify the **best-selling video games**  
-- Compare **critic vs user scores**  
-- Explore whether video games have **improved over time**  
-- Investigate trends in **platforms, publishers, and developers**  
-
----
-
-## Technologies Used
-
+## 🛠️ Technologies Used
 - Python  
 - Pandas  
-- Matplotlib & Seaborn  
+- Matplotlib  
+- Seaborn  
 - Jupyter Notebook  
 
 ---
 
-## Key Insights (Examples)
-
-- Older games like *Super Mario* and *Tetris* still rank among the best-selling titles  
-- Some games have **high critic scores but lower user scores**, and vice versa  
-- Certain platforms dominate the market in different decades  
-- Patterns in sales and ratings reveal how the **gaming market has grown** over time  
+## ✨ Features
+- Analysis of video game sales and ratings  
+- Comparison of critic vs user scores  
+- Identification of top-performing games and publishers  
+- Trend analysis across different gaming eras  
+- Clear data visualizations for insights  
 
 ---
 
-## How to Use
+## 👤 What Users Can Do
+- Explore video game sales and performance trends  
+- Compare critic scores with user ratings  
+- Identify best-selling games and platforms  
+- Understand how the gaming industry has evolved over time  
 
-1. Clone the repository:
+---
 
+## 🧭 Project Workflow
+- Collected and combined multiple video game datasets  
+- Cleaned and structured data using Python (Pandas)  
+- Performed exploratory data analysis (EDA)  
+- Created visualizations using Matplotlib and Seaborn  
+- Extracted meaningful insights from the data  
+
+---
+
+## 💡 What I Learned
+- Data cleaning and preprocessing techniques  
+- Exploratory data analysis (EDA) in real datasets  
+- Data visualization for storytelling  
+- Understanding industry trends using data  
+- Working with multiple related datasets  
+
+---
+
+## 🚀 How to Run
 ```bash
 git clone https://github.com/yourusername/video-game-analysis.git
+cd video-game-analysis
+pip install pandas matplotlib seaborn jupyter
+jupyter notebook
